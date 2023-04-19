@@ -1,0 +1,151 @@
+/*CONTACT*/
+.contact{
+	padding-bottom: 50px;
+	margin-top: 50px;
+}
+.contact .call{
+	background-color: #f5f5f5;
+	border: 5px solid #fff;
+}
+.contact .call .title{
+	font-size: 30px;
+	text-align: center;
+	width: 100%;
+	margin-top: 50px;
+}
+.contact .call .description{
+	font-size: 16px;
+	width: 100%;
+}
+.contact .call .description span{
+	font-size: 20px;
+}
+.contact .mail{
+	border: 5px solid #fff;
+	background-color: #f5f5f5;
+}
+.contact .mail .title{
+	font-size: 30px;
+	text-align: center;
+	width: 100%;
+	margin-top: 50px;
+}
+.contact .mail .cus-info{
+	font-size: 16px;
+	font-weight: bold;
+	text-align: left;
+}
+.contact .mail .cus-info span{
+	color: #e41e26;
+}
+.contact .mail input{
+	width: 100%;
+	border: 1px solid #ccc;
+	margin-bottom: 20px;
+	padding: 0 15px;
+	font-size: 14px;
+	height: 30px;
+	line-height: 20px;
+	outline: none;
+}
+.contact .mail input:focus{
+	border: 1px solid #66afe9;
+	box-shadow: 0 0 5px 0 #cde2f2;
+}
+.contact .mail textarea{
+	width: 100%;
+	border: 1px solid #ccc;
+	padding: 0 15px;
+	resize: vertical;
+	margin-bottom: 20px;
+	font-size: 14px;
+	line-height: 20px;
+	min-height: 60px;
+	max-height: 200px;
+	outline: none;
+}
+.contact .mail textarea:focus{
+	border: 1px solid #66afe9;
+	box-shadow: 0 0 5px 0 #cde2f2;
+}
+.contact .mail .select{
+	display: inline-block;
+	position: relative;
+}
+.contact .mail .select .select-btn{
+	display: inline-block;
+	font-size: 16px;
+	line-height: 30px;
+	padding: 0 25px;
+	height: 30px;
+	background-color: #fff;
+	outline: none;
+	border: 1px solid #ccc;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+.contact .mail .select .select-btn:focus{
+	border: 1px solid #66afe9;
+	box-shadow: 0 0 5px 0 #cde2f2;
+}
+.contact .mail .select .drop-options{
+	position: absolute;
+	top: 30px;
+	left: 0;
+	z-index: 15;
+	width: 100%;
+	border: 1px solid #ccc;
+	border-top: none;
+	background-color: #fff;
+	outline: none;
+	display: none;
+}
+.contact .mail .select .drop-options a{
+	display: block;
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 16px;
+	text-decoration: none;
+	color: black;
+}
+.contact .mail .checkbox{
+	height: 20px;
+	width: 20px;
+	float: left;
+	margin-right: 20px;
+}
+.contact .mail .notify{
+	font-size: 16px;
+	line-height: 20px;
+}
+.contact .mail .confirm{
+	margin-top: 20px;
+	font-size: 16px;
+	font-weight: bold;
+	float: left;
+}
+.contact .mail .confirm-box{
+	width: 65%;
+	float: right;
+	margin-top: 20px;
+}
+.contact .mail .submit-btn{
+	height: 50px;
+	width: 100%;
+	font-size: 20px;
+	line-height: 50px;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	background-color: #d96c5e;
+	margin-bottom: 30px;
+	outline: none;
+}
+.contact .mail .submit-btn:hover{
+	background-color: #e41e26;
+	cursor: pointer;
+}
+
+
+/*CONTACT*/

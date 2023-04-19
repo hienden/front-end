@@ -1,0 +1,60 @@
+
+.alert{
+	width: 100%;
+	height: 50px;
+	background-color: #fcf8e3;
+	display: none;
+}
+
+/*SIGN IN*/
+.sign-in{
+	margin-top: 50px;
+	padding-bottom: 50px;
+}
+.sign-in form{
+	width: 70%;
+	background-color: #f5f5f5;
+	margin: 0 15%;
+	padding: 20px;
+}
+@media all and (max-width: 991px){
+	.sign-in form{
+		width: 100%;
+		margin: 0 0;
+	}
+}
+.sign-in form .title{
+	font-size: 30px;
+}
+.sign-in form input{
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 5px 15px;
+}
+.sign-in form input::placeholder{
+	font-size: 16px;
+	color: #aaa;
+}
+.sign-in form .submit-btn{
+	padding: 10px 15px;
+	color: #fff;
+	font-size: 18px;
+	background-color: #d96c5e;
+	outline: none;
+	border: none;
+	cursor: pointer;
+}
+.sign-in form .submit-btn:hover{
+	background-color: #cf4635;
+}
+.sign-in form .forget{
+	text-decoration: underline;
+	color: #d96c5e;
+	cursor: pointer;
+}
+.forgot-pw{
+	margin-top: -50px;
+	display: none;
+}
+
+/*SIGN IN*/

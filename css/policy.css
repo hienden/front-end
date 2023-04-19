@@ -1,0 +1,50 @@
+
+/*POLICY*/
+.policy{
+	margin-top: 50px;
+	padding-bottom: 50px;
+}
+.policy .title{
+	font-size: 40px;
+	line-height: 46px;
+	text-transform: uppercase;
+	border-right: 1px solid #8e8174;
+}
+@media all and (max-width: 991px){
+	.policy .title{
+		border: none;
+		padding-bottom: 50px;
+	}
+}
+.policy .description{
+	font-size: 16px;
+	line-height: 22px;
+}
+.policy .description::first-letter{
+	font-size: 40px;
+	color: #d96c5e;
+	font-weight: bold;
+	margin-right: 5px;
+}
+.policy .full-detail{
+	margin-top: 20px;
+}
+.policy .full-detail .article{
+	font-size: 20px;
+	line-height: 26px;
+}
+.policy .full-detail .detail{
+	font-size: 16px;
+	line-height: 22px;
+}
+.policy .full-detail li{
+	margin-left: 15px;
+	color: #d96c5e;
+	font-size: 16px;
+	line-height: 22px;
+}
+.policy .full-detail li::marker{
+	color: #000;
+}
+
+/*POLICY*/
